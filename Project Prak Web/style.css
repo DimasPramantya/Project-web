@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'agrandirBold';
+    src: url('./font/agrandir/Agrandir\ Grand\ Heavy\ 800.otf') format('otf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+*{
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+
+body{
+    background-color: #9ec4c0;
+    height: 100%;
+}
+
+.card form{
+    padding: 10px;
+}
+
+.card-login{
+    min-height: 200px;
+    padding: 5% 3%;
+    background-color: #f3eff1;
+    width: 65%;
+    border-radius: 20px;
+    color: #867a7a;
+}
+
+.card-label{
+    background-color: white;
+}
+
+.border-form-items{
+    border-color: #e4e6e3;
+}
+
+.submit-form{
+    width: 13%;
+    border: none;
+    padding: 5px 0;
+    font-weight: 600;
+}
+
+.submit-form:hover{
+    background-color: rgba(134, 122, 122,0.6)   
+}
+
+.logo-container{
+    width: 8%;
+    height: auto;
+}
+
+.logo{
+    font-family: 'agrandirBold';
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: 100%;
+}
+
+.loginRegistText{
+    font-family: 'DM Serif Display', serif;
+    font-size: 2.3em;
+    font-weight: bold;
+    line-height: 150px;
+}
+
+.link-style{
+    color: black;
+    font-weight: bold;
+}
+
+.card-register{
+    border-radius: 20px;
+}
